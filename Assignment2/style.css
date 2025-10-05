@@ -1,0 +1,36 @@
+
+.glitter-text {
+  font-weight: bold;
+  background: linear-gradient(
+    270deg,
+    #ff6ec7,
+    #f9f871,
+    #6df0ff,
+    #ff6ec7,
+    #f9f871,
+    #6df0ff
+  );
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glitter 4s ease infinite;
+}
+
+@keyframes glitter {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+@keyframes glitter {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes glitter {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
